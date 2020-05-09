@@ -166,77 +166,79 @@
     ]
   },
   "sumup-client-server" : {
-    "data": [
-      {
-        "transactionId": 1102747596172,
-        "transactionDate": "2020-04-27T00:02:46.856Z",
-        "status": "Successful",
-        "amount": 194.98,
-        "paymentMethod": "Cash"
-      },
-      {
-        "transactionId": 274099899028,
-        "transactionDate": "2020-04-02T18:42:14.329Z",
-        "status": "Refunded",
-        "amount": -189.89,
-        "paymentMethod": "Card"
-      },
-      {
-        "transactionId": 644018180742,
-        "transactionDate": "2020-03-08T03:09:50.823Z",
-        "status": "Successful",
-        "amount": 197.79,
-        "paymentMethod": "Cash"
-      },
-      {
-        "transactionId": 122135937197,
-        "transactionDate": "2020-02-29T20:32:29.964Z",
-        "status": "Successful",
-        "amount": 197.06,
-        "paymentMethod": "Cash"
-      },
-      {
-        "transactionId": 972268020228,
-        "transactionDate": "2020-02-22T00:56:28.908Z",
-        "status": "Failed",
-        "amount": 76.68,
-        "paymentMethod": "Cash"
-      },
-      {
-        "transactionId": 991453611396,
-        "transactionDate": "2019-12-26T04:35:02.879Z",
-        "status": "Refunded",
-        "amount": -167.45,
-        "paymentMethod": "Card"
-      },
-      {
-        "transactionId": 1568640433383,
-        "transactionDate": "2019-12-21T18:35:05.450Z",
-        "status": "Failed",
-        "amount": 162.93,
-        "paymentMethod": "Card"
-      },
-      {
-        "transactionId": 911502404060,
-        "transactionDate": "2020-02-24T20:40:21.370Z",
-        "status": "Successful",
-        "amount": 192.53,
-        "paymentMethod": "Card"
-      },
-      {
-        "transactionId": 563772846368,
-        "transactionDate": "2020-02-19T12:08:29.051Z",
-        "status": "Successful",
-        "amount": 116.39,
-        "paymentMethod": "Cash"
-      },
-      {
-        "transactionId": 1558871592550,
-        "transactionDate": "2020-05-04T07:40:55.747Z",
-        "status": "Refunded",
-        "amount": -195.3,
-        "paymentMethod": "Card"
-      }
-    ]
+    "transaction": {
+      "data": [
+        {
+          "transactionId": 1102747596172,
+          "transactionDate": "2020-04-27T00:02:46.856Z",
+          "status": "Successful",
+          "amount": 194.98,
+          "paymentMethod": "Cash"
+        },
+        {
+          "transactionId": 274099899028,
+          "transactionDate": "2020-04-02T18:42:14.329Z",
+          "status": "Refunded",
+          "amount": -189.89,
+          "paymentMethod": "Card"
+        },
+        {
+          "transactionId": 644018180742,
+          "transactionDate": "2020-03-08T03:09:50.823Z",
+          "status": "Successful",
+          "amount": 197.79,
+          "paymentMethod": "Cash"
+        },
+        {
+          "transactionId": 122135937197,
+          "transactionDate": "2020-02-29T20:32:29.964Z",
+          "status": "Successful",
+          "amount": 197.06,
+          "paymentMethod": "Cash"
+        },
+        {
+          "transactionId": 972268020228,
+          "transactionDate": "2020-02-22T00:56:28.908Z",
+          "status": "Failed",
+          "amount": 76.68,
+          "paymentMethod": "Cash"
+        },
+        {
+          "transactionId": 991453611396,
+          "transactionDate": "2019-12-26T04:35:02.879Z",
+          "status": "Refunded",
+          "amount": -167.45,
+          "paymentMethod": "Card"
+        },
+        {
+          "transactionId": 1568640433383,
+          "transactionDate": "2019-12-21T18:35:05.450Z",
+          "status": "Failed",
+          "amount": 162.93,
+          "paymentMethod": "Card"
+        },
+        {
+          "transactionId": 911502404060,
+          "transactionDate": "2020-02-24T20:40:21.370Z",
+          "status": "Successful",
+          "amount": 192.53,
+          "paymentMethod": "Card"
+        },
+        {
+          "transactionId": 563772846368,
+          "transactionDate": "2020-02-19T12:08:29.051Z",
+          "status": "Successful",
+          "amount": 116.39,
+          "paymentMethod": "Cash"
+        },
+        {
+          "transactionId": 1558871592550,
+          "transactionDate": "2020-05-04T07:40:55.747Z",
+          "status": "Refunded",
+          "amount": -195.3,
+          "paymentMethod": "Card"
+        }
+      ]
+    }
   }
 }
